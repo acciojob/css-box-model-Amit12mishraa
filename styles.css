@@ -1,9 +1,19 @@
 
-/* Your CSS Code here. */
-div {
-    width: 300px;
-    background-color: lightblue;
-    border: 15px solid blue;
-    padding: 50px;
+.outer-box {
     margin: 20px;
+    border: 15px solid blue;
+    background-color: #4A3BFF; /* outer blue/purple area */
+    width: fit-content;
+    padding: 50px;
+}
+
+.inner-box {
+    background-color: lightblue;
+    width: 300px;
+    padding: 20px;
+    border: 2px dashed black;
+}
+
+p {
+    font-size: 16px;
 }
